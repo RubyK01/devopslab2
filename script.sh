@@ -29,7 +29,7 @@ echo --- >> READ.md
 echo "To run the script.sh run: \ 'bash script.sh \ '" >> READ.md
 
 git init
-git add .
+git add -A
 git commit -m "final commit"
 git remote add origin https://github.com/RubyK01/devopslab2.git
 git branch -M main
